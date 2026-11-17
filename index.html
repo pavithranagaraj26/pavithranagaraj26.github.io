@@ -1,277 +1,492 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Pavithra-Design Portfolio</title>
-	<link rel="icon" href="https://www.flaticon.com/svg/vstatic/svg/1716/1716454.svg?token=exp=1616049743~hmac=4114044828549a84182e34b2f77e692f">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<title>Pavithra Nagaraj | Senior Cloud Platform Engineer</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Portfolio - Pavithra Nagaraj . Made using HTML and CSS"/>
-
-
+	<meta name="description" content="Pavithra Nagaraj - Senior Cloud Platform Engineer. 8+ years designing, automating and securing public cloud platforms across GCP, Azure and AWS at enterprise scale (1,800+ projects). Dublin, Ireland.">
+	<link rel="icon" href="img/portrait.jpg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Header -->
-
-<header class="header">
-	<div class="container" >
-		<div class="row">
-			<div class="logo">
-				<a href="#"> Portfolio</a>
-			</div>
-			<input type="checkbox" id="nav_check">
-			<label for="nav_check" class="nav-toggler">
-				<span></span>
-			</label>
-			<nav class="nav">
-				<ul>
-					<li><a href="#home">home</a></li>
-					<li><a href="#why_us">why me?</a></li>
-					<li><a href="#courses">what i do?</a></li>
-					<li><a href="#contact">Certifications</a></li>
-					<li><a href="#footer">contact</a></li>
-				</ul>
-			</nav>
-		</div>
+<!-- ============ NAV ============ -->
+<header class="topbar">
+	<div class="wrap topbar-in">
+		<a href="#top" class="brand"><span class="brand-mark">PN</span> Pavithra Nagaraj</a>
+		<input type="checkbox" id="nav_check" aria-label="Toggle menu">
+		<label for="nav_check" class="burger" aria-hidden="true"><span></span></label>
+		<nav class="menu">
+			<a href="#profile">Profile</a>
+			<a href="#impact">Impact</a>
+			<a href="#platforms">Platforms</a>
+			<a href="#career">Career</a>
+			<a href="#expertise">Expertise</a>
+			<a href="#credentials">Credentials</a>
+			<a href="#contact" class="menu-cta">Get in touch</a>
+		</nav>
 	</div>
-	
 </header>
 
-<!-- Home Section -->
+<main id="top">
 
-<section class="home-section" id="home">
-	<div class="container">
-		<div class="row h-100 align-items-center align-content-center ">
-			<div class="home-text">
-				<h1>Hello! I'm <span><br>Pavithra Nagaraj</span></h1>
-				<h2>Cloud DevOps Engineer</h2>
-				<a href="#why_us" class="btn btn-1">know more</a>
+<!-- ============ HERO ============ -->
+<section class="hero">
+	<div class="wrap hero-grid">
+		<div class="hero-copy reveal">
+			<p class="eyebrow"><span class="dot"></span> Senior Cloud Platform Engineer</p>
+			<h1>Building the cloud platforms that enterprises <em>trust</em> to run at scale.</h1>
+			<p class="lead">8+ years designing, automating and securing public cloud across GCP, Azure and AWS. Currently governing 1,800+ projects at Activision Blizzard King.</p>
+			<div class="hero-actions">
+				<a href="#contact" class="btn btn-gold">Let's talk</a>
+				<a href="#career" class="btn btn-ghost">View career <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 			</div>
-			<div class="home-img">
-				<div class="home-img-inner">
-					<div class="home-course">
-						<div class="home-course-item">Cloud</div>
-						<div class="home-course-item">DevOps</div>
-						<div class="home-course-item"></div>
-						<div class="home-course-item">CI/CD</div>
-					</div>
-					<img src="img/pavi1.png" alt="home-img">
-				</div>
-			</div>
+			<ul class="chips">
+				<li><i class="fa fa-map-marker" aria-hidden="true"></i> Dublin, Ireland</li>
+				<li><i class="fa fa-plane" aria-hidden="true"></i> Open to relocating to Dubai</li>
+			</ul>
 		</div>
-	</div>
-	
-</section>
 
-<!-- Why us section  -->
-
-
-<section class="why-us-section  sec-padding" id="why_us">
-	<div class="container">
-		<div class="row">
-			<div class="section-title">
-				<h2> why <span> me ? </span></h2>
+		<div class="hero-visual reveal">
+			<div class="portrait">
+				<img src="img/portrait.jpg" alt="Portrait of Pavithra Nagaraj">
 			</div>
-		</div>
-		<div class="row">
-			<div class="why-us-item">
-				<div class="icon">
-					<i class="fa fa-thumb-tack" aria-hidden="true"></i>
-				</div>
-				<h3>exceptional results</h3>
-				<p>I possess a combination of skills and experience that makes me stand out. Hiring me will make your work accurate & easier.</p>
-				
-			</div>
-
-
-			<div class="why-us-item">
-				<div class="icon">
-					<i class="fa fa-paint-brush" aria-hidden="true"></i>
-				</div>
-				<h3>creative</h3>
-				<p>I communicate ideas to inspire and inform clients and I ensure that the outcome accurately reflect the desired requirements.</p>
-				
-			</div>
-
-
-			<div class="why-us-item">
-				<div class="icon">
-					<i class="fa fa-laptop" aria-hidden="true"></i>
-				</div>
-				<h3>energetic and attentive</h3>
-				<p> I incorporate changes recommended by the clients into the final design and Advise clients on strategies to reach a remote architechture.</p>
-				
+			<div class="hero-stats">
+				<div class="stat"><strong>1,800+</strong><span>projects governed</span></div>
+				<div class="stat"><strong>3</strong><span>clouds: GCP, Azure, AWS</span></div>
+				<div class="stat"><i class="fa fa-shield" aria-hidden="true"></i><span>PCI DSS, ISO 27001 &amp; SOC 2</span></div>
 			</div>
 		</div>
 	</div>
 </section>
 
-
-<!-- What I design -->
-
-<section class="courses-section sec sec-padding" id="courses">
-<div class="container">
-		<div class="row">
-			<div class="section-title">
-				<h2> <span> what </span> i do?</h2>
-			</div>
+<!-- ============ KPI STRIP ============ -->
+<section class="kpi-strip" id="impact">
+	<div class="wrap kpi-grid">
+		<div class="kpi reveal">
+			<div class="kpi-num"><span data-count="8">8</span><sup>+</sup></div>
+			<div class="kpi-label">Years in cloud &amp; DevOps</div>
 		</div>
-		<div class="row">
-			<div class="course-item">
-
-					<div class="course-img">
-						<img src="img/cloudinfra.jpeg" style="width: 300px; height: 200px padding: 0px;">
-					</div>
-					<div class="course-info">
-						<h3>Cloud Infra</h3>
-					</div>
-				
-			</div>
-
-
-			<div class="course-item">
-
-					<div class="course-img">
-						<img src="img/DevOps-icon.png" style="width: 300px; height: 300px; padding-top: 50px; padding-bottom: 50px; padding-left: 5px; padding-right: 38px;">
-					</div>
-					<div class="course-info">
-						<h3>DevOps</h3>
-					</div>
-				
-			</div>
-
-			<!-- <div class="course-item">
-			
-					<div class="course-img">
-						<img src="img/info.png" style="width: 300px; height: 200px padding: 0px;">
-					</div>
-					<div class="course-info">
-						<h3>CI/CD</h3>
-					</div>
-				
-			</div> -->
-			
-			<div class="course-item">
-			
-					<div class="course-img">
-						<img src="img/iac.png" style="width: 300px; height: 200px padding: 0px;">
-					</div>
-					<div class="course-info">
-						<h3>IAAC</h3>
-					</div>
-				
-			</div>
-
-
+		<div class="kpi reveal">
+			<div class="kpi-num"><span data-count="1800" data-format="comma">1,800</span><sup>+</sup></div>
+			<div class="kpi-label">Production &amp; non-prod projects secured</div>
+		</div>
+		<div class="kpi reveal">
+			<div class="kpi-num"><span data-count="5">5</span></div>
+			<div class="kpi-label">Organisations, enterprise to consulting</div>
+		</div>
+		<div class="kpi reveal">
+			<div class="kpi-num"><span data-count="3">3</span></div>
+			<div class="kpi-label">Compliance regimes: PCI DSS, ISO 27001, SOC 2</div>
+		</div>
+		<div class="kpi reveal">
+			<div class="kpi-num"><span data-count="6">6</span></div>
+			<div class="kpi-label">Industry certifications</div>
 		</div>
 	</div>
 </section>
 
+<!-- ============ EXECUTIVE PROFILE ============ -->
+<section class="section" id="profile">
+	<div class="wrap">
+		<header class="section-head reveal">
+			<p class="eyebrow">Executive profile</p>
+			<h2>Engineer, builder and owner of outcomes</h2>
+		</header>
 
-<!-- Work exp -->
-<section class="fun-facts-section sec-padding">
-	<div class="container">
-		<div class="row">
-			<div class="section-title">
-				<h2>Work <span>Experience</span></h2>
+		<div class="profile-grid">
+			<div class="profile-text reveal">
+				<p>Senior Cloud Platform Engineer with 8+ years designing, automating and operating public cloud platforms across GCP, Azure and AWS at enterprise scale.</p>
+				<p>A software developer in Python and Go who builds internal self-service platforms, APIs and event-driven automation, backed by Terraform, CI/CD, observability and a strong IAM, networking and governance practice.</p>
+				<p>Experienced in PCI DSS and ISO 27001 environments, with SOC 2 compliance support, cost-driven decommissioning and owning incidents against service levels.</p>
 			</div>
-		</div>
-		<div class="row">
-			<div class="fun-facts-img">
-				<img src="img/Pavi.png">
-			</div>
-				<div class="fun-facts-items">
-					<div class="row">
-						<div class="fun-facts-item">
-							<h3>2+</h3>
-							<p>Deloitte Consulting US India Pvt ltd</p>
-						</div>
 
-						<div class="fun-facts-item">
-							<h3>1.5+</h3>
-							<p>Impact Analytics</p>
-						</div>
-
-						<div class="fun-facts-item">
-							<h3>3+</h3>
-							<p>Cloud & DevOps practice</p>
-						</div>
-
-						<div class="fun-facts-item">
-							<h3>More <a href="https://www.linkedin.com/in/pavithra-nagaraj-803203154/"><i class="fa fa-linkedin-square" aria-hidden="true" style="color: var(--main-color);"></i></a> </h3>
-							<p>Check more on Linkedin </p>
-						</div>
+			<div class="signals">
+				<div class="signal reveal">
+					<i class="fa fa-compass" aria-hidden="true"></i>
+					<div>
+						<h3>Platform strategy</h3>
+						<p>Cloud foundations, hybrid and multi-tenant architecture, multi-cloud governance.</p>
 					</div>
-					
 				</div>
-			
-		</div>
-	</div>
-</section>
-
-
-<!-- Jquery section -->
-
-
-<section class="why-us-section  sec-padding" id="contact">
-	<div class="container">
-		<div class="row">
-			<div class="section-title">
-				<h2> my <span> certifications </span></h2>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="design-item">
-				<img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/14395217" class="design-img" style="width: 700px; height: 300px;">
-			</div>
-			<div class="design-item">
-				<img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/29408027" class="design-img" style="width: 700px; height: 300px;">
-			</div>
-	</div>
-</section>
-
-
-<!-- Footer -->
-<footer class="footer" id="footer">
-	<div class="container">
-		<div class="row">
-			<div class="footer-item footer-about">
-				<h2>about me</h2>
-				<p>A passionate and self-motivated individual, enthusiastically keen to learn and explore. </p>
-				<div class="social-links">
-					
-					<a href="https://www.linkedin.com/in/pavithra-nagaraj-803203154/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-					<a href="https://www.instagram.com/beingosum/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-					<a href="mailto:pavithraraj2619@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-					<a href="tel:xxxxxxxxxx"><i class="fa fa-phone" aria-hidden="true"></i></a>
-
-
+				<div class="signal reveal">
+					<i class="fa fa-lock" aria-hidden="true"></i>
+					<div>
+						<h3>Risk and compliance</h3>
+						<p>Led ISO/IEC 27001 audit certification; PCI DSS environments; SOC 2 support; CIS Benchmark baselines.</p>
+					</div>
+				</div>
+				<div class="signal reveal">
+					<i class="fa fa-line-chart" aria-hidden="true"></i>
+					<div>
+						<h3>Cost and efficiency</h3>
+						<p>Scores and decommissions unused environments at scale, cutting cloud waste.</p>
+					</div>
+				</div>
+				<div class="signal reveal">
+					<i class="fa fa-life-ring" aria-hidden="true"></i>
+					<div>
+						<h3>Operational leadership</h3>
+						<p>Led incident triage and cross-team recovery; RCAs that reduced MTTR.</p>
+					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+</section>
 
-			<div class="footer-item footer-quick-links">
-				<h2>quick links</h2>
+<!-- ============ SIGNATURE PLATFORMS ============ -->
+<section class="section section-alt" id="platforms">
+	<div class="wrap">
+		<header class="section-head reveal">
+			<p class="eyebrow">Signature work at Activision Blizzard King</p>
+			<h2>Platforms built to scale governance, not headcount</h2>
+		</header>
+
+		<div class="case-grid">
+
+			<article class="case reveal">
+				<div class="case-top"><span class="case-ico"><i class="fa fa-search" aria-hidden="true"></i></span><span class="tag">MCP server</span></div>
+				<h3>GCP Project Intelligence</h3>
+				<dl>
+					<dt>Challenge</dt><dd>Teams lacked quick visibility into who owns a project and whether it is safe to remove.</dd>
+					<dt>Solution</dt><dd>A self-service MCP server surfacing ownership, cost signals, resource activity and pre-deletion checks.</dd>
+					<dt>Outcome</dt><dd>Faster investigations and safer governance decisions.</dd>
+				</dl>
+			</article>
+
+			<article class="case reveal">
+				<div class="case-top"><span class="case-ico"><i class="fa fa-recycle" aria-hidden="true"></i></span><span class="tag">BigQuery · Datastore · Cloud Functions</span></div>
+				<h3>Remora: project lifecycle platform</h3>
+				<dl>
+					<dt>Challenge</dt><dd>Unused cloud environments accumulating cost and risk.</dd>
+					<dt>Solution</dt><dd>Automatically identifies, scores and decommissions environments, with Jira automation.</dd>
+					<dt>Outcome</dt><dd>Reduced cloud waste at scale.</dd>
+				</dl>
+			</article>
+
+			<article class="case reveal">
+				<div class="case-top"><span class="case-ico"><i class="fa fa-user-secret" aria-hidden="true"></i></span><span class="tag">Security Command Center</span></div>
+				<h3>Service Account Security Enforcer</h3>
+				<dl>
+					<dt>Challenge</dt><dd>Excessive default service account permissions across the estate.</dd>
+					<dt>Solution</dt><dd>Audits and auto-revokes permissions, integrated with Security Command Center.</dd>
+					<dt>Outcome</dt><dd>Least privilege enforced across 1,800+ projects.</dd>
+				</dl>
+			</article>
+
+			<article class="case reveal">
+				<div class="case-top"><span class="case-ico"><i class="fa fa-exchange" aria-hidden="true"></i></span><span class="tag">Azure ↔ GCP</span></div>
+				<h3>Cross-cloud Workload Identity Federation</h3>
+				<dl>
+					<dt>Challenge</dt><dd>Long-lived static credentials on mission-critical workloads.</dd>
+					<dt>Solution</dt><dd>Federated identity between Azure and GCP.</dd>
+					<dt>Outcome</dt><dd>Static credentials removed from production.</dd>
+				</dl>
+			</article>
+
+			<article class="case reveal">
+				<div class="case-top"><span class="case-ico"><i class="fa fa-sitemap" aria-hidden="true"></i></span><span class="tag">Go</span></div>
+				<h3>Org-wide VPC Flow Logs enforcer</h3>
+				<dl>
+					<dt>Challenge</dt><dd>Inconsistent network telemetry across complex multi-VPC topologies.</dd>
+					<dt>Solution</dt><dd>Enforcer written in Go with centralized audit dashboards.</dd>
+					<dt>Outcome</dt><dd>Consistent security event logging organisation-wide.</dd>
+				</dl>
+			</article>
+
+			<article class="case reveal">
+				<div class="case-top"><span class="case-ico"><i class="fa fa-area-chart" aria-hidden="true"></i></span><span class="tag">Grafana · Loki · Prometheus</span></div>
+				<h3>Multi-tenant observability</h3>
+				<dl>
+					<dt>Challenge</dt><dd>Spotting latency and ingress problems across GKE and AKS tenants.</dd>
+					<dt>Solution</dt><dd>Alerting on p95/p99 latency and 4xx/5xx spikes, with Python auto-remediation.</dd>
+					<dt>Outcome</dt><dd>Less recurring toil and faster recovery (lower MTTR).</dd>
+				</dl>
+			</article>
+
+		</div>
+	</div>
+</section>
+
+<!-- ============ OPERATING MODEL (infographic) ============ -->
+<section class="section">
+	<div class="wrap">
+		<header class="section-head reveal">
+			<p class="eyebrow">How I work</p>
+			<h2>One platform, six pillars</h2>
+		</header>
+
+		<div class="hub reveal">
+			<div class="hub-core">
+				<i class="fa fa-cloud" aria-hidden="true"></i>
+				<strong>Cloud<br>Platform</strong>
+			</div>
+			<div class="pillar p1"><i class="fa fa-key" aria-hidden="true"></i><h3>Identity</h3><p>IAM, least privilege, Workload Identity Federation</p></div>
+			<div class="pillar p2"><i class="fa fa-sitemap" aria-hidden="true"></i><h3>Networking</h3><p>Shared VPC, DNS, load balancing, Calico</p></div>
+			<div class="pillar p3"><i class="fa fa-cogs" aria-hidden="true"></i><h3>Delivery</h3><p>Terraform, GitOps, CI/CD pipelines</p></div>
+			<div class="pillar p4"><i class="fa fa-heartbeat" aria-hidden="true"></i><h3>Observability</h3><p>Grafana, Prometheus, Loki, RCA</p></div>
+			<div class="pillar p5"><i class="fa fa-balance-scale" aria-hidden="true"></i><h3>Governance</h3><p>PCI DSS, ISO 27001, SOC 2, CIS, Azure Policy</p></div>
+			<div class="pillar p6"><i class="fa fa-money" aria-hidden="true"></i><h3>Cost</h3><p>Lifecycle and FinOps-aligned decommissioning</p></div>
+		</div>
+	</div>
+</section>
+
+<!-- ============ CAREER ============ -->
+<section class="section section-alt" id="career">
+	<div class="wrap">
+		<header class="section-head reveal">
+			<p class="eyebrow">Career</p>
+			<h2>Nine years, five organisations, one direction: scale with control</h2>
+		</header>
+
+		<!-- Gantt infographic: Nov 2017 to Nov 2026 = 108 months -->
+		<div class="gantt reveal" role="img" aria-label="Career timeline from 2017 to present">
+			<div class="gantt-axis">
+				<span style="left:0%">2017</span>
+				<span style="left:11.1%">2018</span>
+				<span style="left:22.2%">2019</span>
+				<span style="left:33.3%">2020</span>
+				<span style="left:44.4%">2021</span>
+				<span style="left:55.6%">2022</span>
+				<span style="left:66.7%">2023</span>
+				<span style="left:77.8%">2024</span>
+				<span style="left:88.9%">2025</span>
+				<span style="left:100%">2026</span>
+			</div>
+			<div class="gantt-row"><label>Deloitte</label><div class="track"><div class="bar b1" style="left:0%;width:20.4%">AWS · Ansible · Python</div></div></div>
+			<div class="gantt-row"><label>Impact Analytics</label><div class="track"><div class="bar b2" style="left:23.1%;width:14.8%">GCP · AWS</div></div></div>
+			<div class="gantt-row"><label>DXC Technology</label><div class="track"><div class="bar b3" style="left:38%;width:14.8%">PCI DSS · GKE</div></div></div>
+			<div class="gantt-row"><label>HCL Technology</label><div class="track"><div class="bar b4" style="left:52.8%;width:11.1%">PCF → GCP</div></div></div>
+			<div class="gantt-row"><label>Activision Blizzard King</label><div class="track"><div class="bar b5" style="left:64.8%;width:35.2%">Platform · Security · Automation</div></div></div>
+		</div>
+
+		<div class="roles">
+
+			<details class="role reveal" open>
+				<summary>
+					<span class="role-date">Sep 2023 – Present</span>
+					<span class="role-title">Cloud Platform Engineer</span>
+					<span class="role-co">Activision Blizzard King · Dublin, Ireland</span>
+				</summary>
 				<ul>
-				<li><a href="#why_us">Why me</a></li>
-				<li><a href="#courses">What i do</a></li>
-				<li><a href="#contact">Certifications</a></li>
+					<li>Built a GCP Project Intelligence MCP server giving teams self-service visibility into project ownership, cost signals, resource activity and pre-deletion checks.</li>
+					<li>Designed Remora, an internal GCP project lifecycle platform (BigQuery, Datastore, Cloud Functions, Jira automation) that identifies, scores and decommissions unused environments at scale.</li>
+					<li>Built a Default Service Account Security Enforcer integrated with Security Command Center that audits and auto-revokes excessive permissions across 1,800+ projects.</li>
+					<li>Implemented cross-cloud Workload Identity Federation between Azure and GCP, removing long-lived static credentials for mission-critical production workloads.</li>
+					<li>Engineered an org-wide VPC Flow Logs enforcer in Go, with centralized audit dashboards and security event logging.</li>
+					<li>Architected observability and alerting (Grafana, Loki, Prometheus) across multi-tenant GKE and AKS clusters.</li>
+					<li>Developed Python event-driven automation for alert routing, health monitoring and auto-remediation.</li>
+					<li>Led incident triage and cross-team recovery for critical production outages; delivered RCAs and post-mortems that reduced MTTR.</li>
+					<li>Architected hybrid CI/CD linking GitHub Enterprise with Azure DevOps self-hosted agents; authored Terraform modules and enforced organization-level Azure Policies.</li>
 				</ul>
-			</div>
+			</details>
 
-			<div class="footer-item footer-contact">
-				<h2>contact me</h2>
-				<p><i class="fa fa-map-marker" aria-hidden="true"></i> Tamil Nadu, India</p>
-				<p><i class="fa fa-envelope" aria-hidden="true"></i> pavithraraj2619@gmail.com</p>
-				<p><i class="fa fa-phone" aria-hidden="true"></i> +91 xxxxx xxxxx</p>
-			</div>
+			<details class="role reveal">
+				<summary>
+					<span class="role-date">Aug 2022 – Aug 2023</span>
+					<span class="role-title">Senior GCP DevOps Engineer</span>
+					<span class="role-co">HCL Technology · Bangalore</span>
+				</summary>
+				<ul>
+					<li>Lead technical escalation point for large-scale enterprise PCF-to-GCP migrations: architecture guidance, code-level debugging and platform enablement.</li>
+					<li>Designed highly available serverless platforms on Cloud Run v2 and Cloud Functions Gen 2 with internal load balancers and custom vanity URLs.</li>
+					<li>Built modular Terraform and GitOps delivery workflows that sped developer onboarding and eliminated environment drift.</li>
+					<li>Resolved critical incidents and escalations through BMC and Rally.</li>
+				</ul>
+			</details>
 
-			<div class="footer-item footer-more">
-				<h2>© Pavithra Nagaraj <hr><br> Made with ❤️ <br> Design Portfolio 🖌️ <br> Made using Html & Css 💻 </h2>
+			<details class="role reveal">
+				<summary>
+					<span class="role-date">Apr 2021 – Aug 2022</span>
+					<span class="role-title">Cloud DevOps Engineer</span>
+					<span class="role-co">DXC Technology · Bangalore</span>
+				</summary>
+				<ul>
+					<li>Designed cloud foundations for enterprise financial platforms and provisioned PCI DSS-compliant environments for sensitive banking data.</li>
+					<li>Automated provisioning with reusable Terraform for VPC networking, organizational hierarchy and GKE clusters; deployed serverless Cloud Run workloads.</li>
+					<li>Configured Anthos Service Mesh and Config Management through IaC; enforced Kubernetes host-level security with Calico network policies.</li>
+					<li>Built centralized observability and Python Airflow DAGs for ingestion and validation into BigQuery.</li>
+					<li>Automated cross-OS patching with custom Ansible roles; set up GitHub repository templates and GitOps workflows.</li>
+				</ul>
+			</details>
+
+			<details class="role reveal">
+				<summary>
+					<span class="role-date">Dec 2019 – Apr 2021</span>
+					<span class="role-title">Cloud DevOps Engineer</span>
+					<span class="role-co">Impact Analytics India Pvt Ltd · Bangalore</span>
+				</summary>
+				<ul>
+					<li>Architected and governed multi-tenant GCP and AWS environments for multiple clients; owned updates, backup strategies and platform enablement.</li>
+					<li>Designed centralized Shared VPC networks with Terraform and migrated complex subnets and multi-account architectures with no service disruption.</li>
+					<li>Built Terraform-based CI/CD pipelines and administered Jenkins, reducing build failures and manual provisioning effort.</li>
+					<li>Led ISO/IEC 27001 compliance and audit certification; embedded CIS Benchmark controls into baseline infrastructure policy.</li>
+					<li>Standardized Docker golden-image deployment across client environments.</li>
+				</ul>
+			</details>
+
+			<details class="role reveal">
+				<summary>
+					<span class="role-date">Nov 2017 – Sep 2019</span>
+					<span class="role-title">Cloud DevOps Analyst</span>
+					<span class="role-co">Deloitte Consulting US India Pvt Ltd · Bangalore, Hyderabad</span>
+				</summary>
+				<ul>
+					<li>Operated AWS infrastructure (EC2, S3, ELB, Route 53, CloudWatch) and automated EC2 provisioning with Ansible and boto3.</li>
+					<li>Ran Docker and Kubernetes environments and built Jenkins pipelines delivering Kubernetes workloads from GitHub.</li>
+					<li>Built Python data pipelines (Dataflow, Pub/Sub, ETL from Cloud Storage into BigQuery) and Flask/Selenium automation for ML input preparation.</li>
+				</ul>
+			</details>
+
+		</div>
+	</div>
+</section>
+
+<!-- ============ EXPERTISE MAP ============ -->
+<section class="section" id="expertise">
+	<div class="wrap">
+		<header class="section-head reveal">
+			<p class="eyebrow">Expertise map</p>
+			<h2>Depth across the whole platform stack</h2>
+		</header>
+
+		<div class="map">
+			<div class="map-card reveal">
+				<h3><i class="fa fa-cloud" aria-hidden="true"></i> Public cloud</h3>
+				<div class="pills"><span>Google Cloud</span><span>Microsoft Azure</span><span>AWS</span><span>Cloud foundations</span><span>Hybrid</span><span>Multi-tenant</span></div>
+			</div>
+			<div class="map-card reveal">
+				<h3><i class="fa fa-key" aria-hidden="true"></i> Identity and access</h3>
+				<div class="pills"><span>IAM design</span><span>Least privilege</span><span>Workload Identity Federation</span><span>Azure Policy</span><span>Service account governance</span></div>
+			</div>
+			<div class="map-card reveal">
+				<h3><i class="fa fa-sitemap" aria-hidden="true"></i> Networking</h3>
+				<div class="pills"><span>VPC &amp; Shared VPC</span><span>Routing &amp; DNS</span><span>Internal load balancing</span><span>VPC Flow Logs</span><span>Calico</span><span>Ingress</span></div>
+			</div>
+			<div class="map-card reveal">
+				<h3><i class="fa fa-code" aria-hidden="true"></i> Software development</h3>
+				<div class="pills"><span>Python</span><span>Go</span><span>Bash</span><span>APIs</span><span>Event-driven functions</span><span>MCP server</span></div>
+			</div>
+			<div class="map-card reveal">
+				<h3><i class="fa fa-cubes" aria-hidden="true"></i> Containers</h3>
+				<div class="pills"><span>Kubernetes (GKE, AKS)</span><span>Docker</span><span>Helm</span><span>Rancher</span><span>Anthos Service Mesh</span><span>Config Management</span></div>
+			</div>
+			<div class="map-card reveal">
+				<h3><i class="fa fa-cogs" aria-hidden="true"></i> IaC and DevOps</h3>
+				<div class="pills"><span>Terraform</span><span>GitHub Enterprise</span><span>Azure DevOps</span><span>Jenkins</span><span>Drone CI</span><span>Atlantis</span><span>GitOps</span><span>Ansible</span></div>
+			</div>
+			<div class="map-card reveal">
+				<h3><i class="fa fa-area-chart" aria-hidden="true"></i> Observability</h3>
+				<div class="pills"><span>Prometheus</span><span>Grafana</span><span>Loki</span><span>Dynatrace</span><span>Azure Monitor</span><span>KQL</span><span>Kibana</span><span>RCA</span></div>
+			</div>
+			<div class="map-card reveal">
+				<h3><i class="fa fa-balance-scale" aria-hidden="true"></i> Governance, security and cost</h3>
+				<div class="pills"><span>Security Command Center</span><span>CIS Benchmarks</span><span>PCI DSS</span><span>ISO/IEC 27001</span><span>SOC 2</span><span>FinOps-aligned</span></div>
 			</div>
 		</div>
+	</div>
+</section>
+
+<!-- ============ CREDENTIALS ============ -->
+<section class="section section-alt" id="credentials">
+	<div class="wrap">
+		<header class="section-head reveal">
+			<p class="eyebrow">Credentials</p>
+			<h2>Certified across cloud, IaC and delivery</h2>
+		</header>
+
+		<div class="cert-grid">
+			<div class="cert reveal"><i class="fa fa-certificate" aria-hidden="true"></i><span>Google Cloud</span><strong>Professional Cloud Architect</strong></div>
+			<div class="cert reveal"><i class="fa fa-certificate" aria-hidden="true"></i><span>Google Cloud</span><strong>Associate Cloud Engineer</strong></div>
+			<div class="cert reveal"><i class="fa fa-certificate" aria-hidden="true"></i><span>HashiCorp</span><strong>Terraform Associate</strong></div>
+			<div class="cert reveal"><i class="fa fa-certificate" aria-hidden="true"></i><span>Microsoft</span><strong>Azure Fundamentals</strong></div>
+			<div class="cert reveal"><i class="fa fa-certificate" aria-hidden="true"></i><span>Jenkins · 2021</span><strong>Certified Jenkins Engineer</strong></div>
+			<div class="cert reveal"><i class="fa fa-certificate" aria-hidden="true"></i><span>Python Institute</span><strong>PCEP Entry-Level Python</strong></div>
+		</div>
+
+		<div class="edu reveal">
+			<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+			<div>
+				<h3>B.Sc., Computer Science and Applications</h3>
+				<p>Sri Krishna Arts and Science College, Bharathiar University · Jun 2014 – Apr 2017</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+	<div class="wrap contact-in reveal">
+		<p class="eyebrow">Next conversation</p>
+		<h2>Let's build something dependable.</h2>
+		<p class="lead">Open to senior cloud platform and engineering leadership opportunities in Dublin, or relocating to Dubai.</p>
+		<div class="hero-actions center">
+			<a href="mailto:pavithraraj2619@gmail.com" class="btn btn-gold"><i class="fa fa-envelope" aria-hidden="true"></i> Email me</a>
+			<a href="tel:+353877593948" class="btn btn-ghost"><i class="fa fa-phone" aria-hidden="true"></i> +353 87 759 3948</a>
+			<a href="https://www.linkedin.com/in/pavithra-nagaraj-803203154/" class="btn btn-ghost"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a>
+		</div>
+	</div>
+</section>
+
+</main>
+
+<footer class="footer">
+	<div class="wrap foot-in">
+		<span>© Pavithra Nagaraj</span>
+		<span><i class="fa fa-map-marker" aria-hidden="true"></i> Dublin, Ireland</span>
+		<span><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+353877593948">+353 87 759 3948</a></span>
+		<span>Built with HTML &amp; CSS</span>
 	</div>
 </footer>
+
+<script>
+(function () {
+	// Scroll reveal
+	var els = document.querySelectorAll('.reveal');
+	if (!('IntersectionObserver' in window)) {
+		els.forEach(function (e) { e.classList.add('in'); });
+	} else {
+		var io = new IntersectionObserver(function (entries) {
+			entries.forEach(function (en) {
+				if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+			});
+		}, { threshold: 0.12 });
+		els.forEach(function (e) { io.observe(e); });
+	}
+
+	// KPI counters
+	var counters = document.querySelectorAll('[data-count]');
+	function fmt(n, el) {
+		return el.dataset.format === 'comma' ? n.toLocaleString('en-US') : String(n);
+	}
+	function run(el) {
+		var target = +el.dataset.count, start = null, dur = 1400;
+		function step(t) {
+			if (!start) start = t;
+			var p = Math.min((t - start) / dur, 1);
+			el.textContent = fmt(Math.round(target * (1 - Math.pow(1 - p, 3))), el);
+			if (p < 1) requestAnimationFrame(step);
+		}
+		requestAnimationFrame(step);
+	}
+	if ('IntersectionObserver' in window) {
+		var co = new IntersectionObserver(function (entries) {
+			entries.forEach(function (en) {
+				if (en.isIntersecting) { run(en.target); co.unobserve(en.target); }
+			});
+		}, { threshold: 0.6 });
+		counters.forEach(function (c) { co.observe(c); });
+	}
+
+	// Close mobile menu on link click
+	document.querySelectorAll('.menu a').forEach(function (a) {
+		a.addEventListener('click', function () { document.getElementById('nav_check').checked = false; });
+	});
+})();
+</script>
 </body>
 </html>
