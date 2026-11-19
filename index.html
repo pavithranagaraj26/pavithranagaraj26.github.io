@@ -149,6 +149,16 @@
 		<div class="case-grid">
 
 			<article class="case reveal">
+					<div class="case-top"><span class="case-ico"><i class="fa fa-random" aria-hidden="true"></i></span><span class="tag">WarpStream · GKE · Terraform</span></div>
+					<h3>WarpStream streaming platform</h3>
+					<dl>
+						<dt>Challenge</dt><dd>Bringing a Kafka-compatible streaming service onto GKE as a shared platform, with controlled access and monitoring.</dd>
+						<dt>Solution</dt><dd>Onboarded a WarpStream (BYOC) proof of concept, automated access with Terraform and Atlantis, and delivered monitoring and alerting as code through GitOps.</dd>
+						<dt>Outcome</dt><dd>Self-service, auditable access and observability from day one.</dd>
+					</dl>
+				</article>
+
+				<article class="case reveal">
 				<div class="case-top"><span class="case-ico"><i class="fa fa-search" aria-hidden="true"></i></span><span class="tag">MCP server</span></div>
 				<h3>GCP Project Intelligence</h3>
 				<dl>
@@ -273,7 +283,9 @@
 					<span class="role-co">Activision Blizzard King · Dublin, Ireland</span>
 				</summary>
 				<ul>
-					<li>Built a GCP Project Intelligence MCP server giving teams self-service visibility into project ownership, cost signals, resource activity and pre-deletion checks.</li>
+					<li>Onboarded a WarpStream (Kafka-compatible) BYOC proof of concept onto GKE as a shared platform service, covering observability, per-cluster access and alerting.</li>
+						<li>Automated WarpStream access with Terraform and Atlantis (Kafka credentials, ACLs, secrets and IAM bindings), and delivered its monitoring and alerting as code through GitOps.</li>
+						<li>Built a GCP Project Intelligence MCP server giving teams self-service visibility into project ownership, cost signals, resource activity and pre-deletion checks.</li>
 					<li>Designed Remora, an internal GCP project lifecycle platform (BigQuery, Datastore, Cloud Functions, Jira automation) that identifies, scores and decommissions unused environments at scale.</li>
 					<li>Built a Default Service Account Security Enforcer integrated with Security Command Center that audits and auto-revokes excessive permissions across 1,800+ projects.</li>
 					<li>Implemented cross-cloud Workload Identity Federation between Azure and GCP, removing long-lived static credentials for mission-critical production workloads.</li>
@@ -372,16 +384,16 @@
 				<div class="pills"><span>Python</span><span>Bash</span><span>Event-driven automation</span><span>Self-service tooling</span><span>MCP server</span></div>
 			</div>
 			<div class="map-card reveal">
-				<h3><i class="fa fa-cubes" aria-hidden="true"></i> Containers</h3>
-				<div class="pills"><span>Kubernetes (GKE, AKS)</span><span>Docker</span><span>Helm</span><span>Rancher</span><span>Anthos Service Mesh</span><span>Config Management</span></div>
+				<h3><i class="fa fa-cubes" aria-hidden="true"></i> Containers and streaming</h3>
+				<div class="pills"><span>Kubernetes (GKE, AKS)</span><span>Docker</span><span>Helm</span><span>Rancher</span><span>Anthos Service Mesh</span><span>Config Management</span><span>WarpStream (Kafka-compatible)</span></div>
 			</div>
 			<div class="map-card reveal">
 				<h3><i class="fa fa-cogs" aria-hidden="true"></i> IaC and DevOps</h3>
-				<div class="pills"><span>Terraform</span><span>GitHub Enterprise</span><span>Azure DevOps</span><span>Jenkins</span><span>Drone CI</span><span>Atlantis</span><span>GitOps</span><span>Ansible</span></div>
+				<div class="pills"><span>Terraform</span><span>GitHub Enterprise</span><span>Azure DevOps</span><span>Jenkins</span><span>Drone CI</span><span>Atlantis</span><span>Flux</span><span>GitOps</span><span>Ansible</span></div>
 			</div>
 			<div class="map-card reveal">
 				<h3><i class="fa fa-area-chart" aria-hidden="true"></i> Observability</h3>
-				<div class="pills"><span>Prometheus</span><span>Grafana</span><span>Loki</span><span>Dynatrace</span><span>Azure Monitor</span><span>KQL</span><span>Kibana</span><span>RCA</span></div>
+				<div class="pills"><span>Prometheus / Mimir</span><span>Grafana</span><span>Loki</span><span>Alertmanager</span><span>Dynatrace</span><span>Azure Monitor</span><span>KQL</span><span>Kibana</span><span>RCA</span></div>
 			</div>
 			<div class="map-card reveal">
 				<h3><i class="fa fa-balance-scale" aria-hidden="true"></i> Governance, security and cost</h3>
